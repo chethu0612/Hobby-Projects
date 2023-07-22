@@ -1,0 +1,14 @@
+/* Custom styles for the Quiz Game Web App */
+#quizContainer, #resultContainer {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .question {
+    font-weight: bold;
+  }
+  
+  .option {
+    margin-bottom: 10px;
+  }
+  
