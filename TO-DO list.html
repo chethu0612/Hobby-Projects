@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>To-Do List</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <input type="text" id="taskInput" class="form-control" placeholder="Enter a new task...">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary" onclick="addTask()">Add Task</button>
+        <button class="btn btn-danger" onclick="clearAllTasks()">Clear All</button>
+      </div>
+    </div>
+    <ul id="taskList" class="mt-3 list-group">
+      <!-- Tasks will be added dynamically here -->
+    </ul>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
